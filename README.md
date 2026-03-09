@@ -8,25 +8,25 @@ An autonomous robot navigation simulation using the **Tangent Bug** algorithm, i
 This project demonstrates a reactive navigation strategy where a robot reaches a target by scanning its environment in real-time. Unlike global planners (like A* or Dijkstra), the **Tangent Bug** algorithm doesn't require a pre-existing map. It makes decisions based on local sensor data, identifying obstacle edges ("discontinuities") to find the optimal path.
 
 ## 📺 Demo
-<table style="width: 100%; border-collapse: collapse;">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <tr>
-    <td align="center" width="50%">
+    <td align="center">
       <b>1. Simple Obstacle</b><br>
-      <video src="https://github.com/user-attachments/assets/f22e44fb-e678-4964-9c00-0c8b82f71012" width="100%" controls muted loop></video>
+      <video src="https://github.com/user-attachments/assets/f22e44fb-e678-4964-9c00-0c8b82f71012" width="100%" autoplay loop muted playsinline></video>
     </td>
-    <td align="center" width="50%">
+    <td align="center">
       <b>2. Multiple Obstacles</b><br>
-      <video src="https://github.com/user-attachments/assets/014e8f77-d855-4baa-a01e-b9b43b8392a3" width="100%" controls muted loop></video>
+      <video src="https://github.com/user-attachments/assets/014e8f77-d855-4baa-a01e-b9b43b8392a3" width="100%" autoplay loop muted playsinline></video>
     </td>
   </tr>
   <tr>
-    <td align="center" width="50%">
+    <td align="center">
       <b>3. Concave Obstacle</b><br>
-      <video src="https://github.com/user-attachments/assets/f5ad7875-6981-4693-9f93-553e27bc2c1d" width="100%" controls muted loop></video>
+      <video src="https://github.com/user-attachments/assets/f5ad7875-6981-4693-9f93-553e27bc2c1d" width="100%" autoplay loop muted playsinline></video>
     </td>
-    <td align="center" width="50%">
+    <td align="center">
       <b>4. Convex Obstacle</b><br>
-      <video src="https://github.com/user-attachments/assets/6041ba86-4407-4398-aa68-08ad8ba35d8b" width="100%" controls muted loop></video>
+      <video src="https://github.com/user-attachments/assets/6041ba86-4407-4398-aa68-08ad8ba35d8b" width="100%" autoplay loop muted playsinline></video>
     </td>
   </tr>
 </table>
