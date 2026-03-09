@@ -10,11 +10,20 @@ This project demonstrates a reactive navigation strategy where a robot reaches a
 ## 📺 Demo
 ### 1. Simple Obstacle
 
+[SimpleObstacle.webm](https://github.com/user-attachments/assets/f22e44fb-e678-4964-9c00-0c8b82f71012)
+
 ### 2. Multiple Obstacles
+
+[MultipleObstacles.webm](https://github.com/user-attachments/assets/014e8f77-d855-4baa-a01e-b9b43b8392a3)
 
 ### 3. Concave Obstacle
 
+[ConcaveObstacle.webm](https://github.com/user-attachments/assets/f5ad7875-6981-4693-9f93-553e27bc2c1d)
+
 ### 4. Convex Obstacle
+
+[ConvexObstacle.webm](https://github.com/user-attachments/assets/6041ba86-4407-4398-aa68-08ad8ba35d8b)
+
 
 ## 🚀 Features
 * **Discontinuity Detection**: The robot scans 360° and identifies sharp jumps in distance to find obstacle corners.
